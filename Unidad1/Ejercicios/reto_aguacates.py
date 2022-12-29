@@ -1,4 +1,7 @@
+"""Resolucion del reto de aguacates"""
+
 def calcular_cargamento(toneladas):
+    """Calcula la cantidad de aguacates y arboles segun las toneladas dadas"""
     kilos = toneladas*1000
     aguacates = int(kilos/0.25)
     arboles = int(aguacates/40)
